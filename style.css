@@ -86,15 +86,15 @@ a {
 
 @media(Max-width:500px) {
     h1 {
-        font-size: 55px;
+        font-size: 45px;
     }
 
     .clock {
-        width: 335px;
-        font-size: 55px;
+        width: 300px;
+        font-size: 45px;
     }
 
     .copyright {
-        margin-top: 360px;
+        margin-top: 500px;
     }
 }
