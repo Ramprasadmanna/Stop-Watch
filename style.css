@@ -1,0 +1,100 @@
+body {
+    background-color: #152238;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+    user-select: none;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.clock {
+    border: 1px solid red;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 470px;
+    margin: 50px auto;
+    padding: 10px 20px;
+    font-size: 70px;
+
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+}
+
+
+.min,
+.sec,
+.msec {
+    width: 125px;
+}
+
+.btn {
+    background: rgba(255, 255, 255, 0.13);
+    border-radius: 2px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(255, 255, 255, 0.39);
+    font-family: 'Poppins', sans-serif;
+    color: #ffff;
+    padding: 5px 30px;
+    font-size: 20px;
+    margin: 0 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.stop {
+    display: none;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.copyright {
+    font-size: 13px;
+    margin-top: 200px;
+}
+
+.copyright:hover {
+    font-weight: 500;
+
+}
+
+@media(Max-width:500px) {
+    h1 {
+        font-size: 55px;
+    }
+
+    .clock {
+        width: 420px;
+        font-size: 65px;
+    }
+
+    .copyright {
+        margin-top: 360px;
+    }
+}
