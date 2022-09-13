@@ -34,7 +34,7 @@ window.onload = function () {
                     seconds = 0;
                     Sec.innerHTML = "0" + 0;
                 }
-            }, 1000)
+            }, 10)
             Start.style.display = "none"
             Stop.style.display = "inline-block"
         }
@@ -58,8 +58,8 @@ window.onload = function () {
             Start.style.display = "inline-block"
         }
         startClock = false;
+         ms = 0;
         seconds = 0;
-        hours = 0;
         minutes = 0;
         Min.innerHTML = "00"
         Sec.innerHTML = "00"
