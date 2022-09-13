@@ -75,13 +75,16 @@ a {
 }
 
 .copyright {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    right: 0;
     font-size: 13px;
-    margin-top: 200px;
 }
 
-.copyright:hover {
-    font-weight: 500;
 
+.copyright p:hover {
+    font-weight: 500;
 }
 
 @media(Max-width:500px) {
@@ -92,9 +95,5 @@ a {
     .clock {
         width: 300px;
         font-size: 45px;
-    }
-
-    .copyright {
-        margin-top: 500px;
     }
 }
