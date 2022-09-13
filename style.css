@@ -67,6 +67,8 @@ a {
 
 .stop {
     display: none;
+    background-color: rgb(197, 68, 68);
+    border-color: rgb(255, 0, 0);
 }
 
 .pressed {
